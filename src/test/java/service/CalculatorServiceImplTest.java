@@ -58,7 +58,7 @@ class CalculatorServiceImplTest {
     }
 
     @Test
-    public void zeroException() {
+     public void zeroException() {
         assertThrows(CalculatorZeroException.class,
                 () -> calculatorService.divide(ONE, ZERO));
     }

@@ -2,7 +2,7 @@ package service;
 
 public interface CalculatorService {
 
-    Integer plus(Integer x, Integer y);
+     Integer plus(Integer x, Integer y);
 
     int minus(Integer x, Integer y);
 

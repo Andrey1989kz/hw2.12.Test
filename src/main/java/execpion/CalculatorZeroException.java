@@ -1,7 +1,7 @@
 package execpion;
 
 public class CalculatorZeroException extends IllegalArgumentException{
-    public CalculatorZeroException() {
+    public  CalculatorZeroException() {
     }
 
     public CalculatorZeroException(String s) {

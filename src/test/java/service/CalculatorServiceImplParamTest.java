@@ -45,8 +45,8 @@ public class CalculatorServiceImplParamTest {
 
     private static Stream<Arguments> provideCalculator() {
         return Stream.of(
-                Arguments.of(ONE, TWO),
-                Arguments.of(TWO, THREE),
+                 Arguments.of(ONE, TWO),
+                Arguments.of(TWO, TWO),
                 Arguments.of(THREE, THREE),
                 Arguments.of(ZERO, THREE)
         );
